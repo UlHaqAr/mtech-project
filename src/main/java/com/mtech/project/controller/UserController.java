@@ -21,6 +21,11 @@ public class UserController {
         return repo.findAll();
     }
 
+//    paylaod from api
+//    {
+//        "name": "Alice",
+//            "email": "alice@example.com"
+//    }
     @PostMapping
     public UserModel addUser(@RequestBody UserModel userModel) {
         return repo.save(userModel);
