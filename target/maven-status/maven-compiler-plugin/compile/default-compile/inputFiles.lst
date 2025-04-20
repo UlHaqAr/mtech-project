@@ -1,10 +1,13 @@
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/ProjectApplication.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/controller/CustomerInstallBaseController.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/controller/MitigationController.java
+/Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/controller/NatOverviewController.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/controller/RevenueController.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/entity/CustomerInstallBaseModel.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/entity/MitigationModel.java
+/Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/entity/NatOverviewModel.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/entity/RevenueModel.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/repository/CustomerInstallBaseRepository.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/repository/MitigationRepository.java
+/Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/repository/NatOverviewRepository.java
 /Users/arsal/Desktop/projects/mtech-project/src/main/java/com/mtech/project/repository/RevenueRepository.java
