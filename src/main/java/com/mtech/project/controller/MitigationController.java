@@ -3,6 +3,8 @@ package com.mtech.project.controller;
 import com.mtech.project.entity.CustomerInstallBaseModel;
 import com.mtech.project.entity.MitigationModel;
 import com.mtech.project.repository.MitigationRepository;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -26,5 +28,11 @@ public class MitigationController {
         Optional<MitigationModel> optional = mitigationModels.stream().filter(mitigationModel -> mitigationModel.getName().equals(name)).findFirst();
         MitigationModel emptyResult = new MitigationModel();
         return optional.isPresent()? optional.get(): emptyResult;
+    }
+
+    @PostMapping
+    public ResponseEntity<MitigationModel> addEntry(@RequestBody MitigationModel mitigationModel) {
+        MitigationModel mitigationModel1 = mitigationRepository.save(mitigationModel);
+        return new ResponseEntity<>(mitigationModel1, HttpStatus.CREATED);
     }
 }
